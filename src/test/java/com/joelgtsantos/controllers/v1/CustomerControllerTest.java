@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.joelgtsantos.v1.controllers;
+package com.joelgtsantos.controllers.v1;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasSize;
@@ -29,9 +29,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import com.joelgtsantos.api.v1.model.CustomerDTO;
+import com.joelgtsantos.controllers.RestResponseEntityExceptionHandler;
+import com.joelgtsantos.controllers.v1.CustomerController;
 import com.joelgtsantos.services.CustomerService;
 import com.joelgtsantos.services.ResourceNotFoundException;
-import com.joelgtsantos.v1.RestResponseEntityExceptionHandler;
 
 /**
  * @author Joel Santos

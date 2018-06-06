@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.joelgtsantos.v1.controllers;
+package com.joelgtsantos.controllers.v1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

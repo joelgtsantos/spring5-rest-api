@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.joelgtsantos.v1.controllers;
+package com.joelgtsantos.controllers.v1;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;

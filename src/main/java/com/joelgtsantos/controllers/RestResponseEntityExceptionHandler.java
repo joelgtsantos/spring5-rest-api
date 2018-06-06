@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.joelgtsantos.v1;
+package com.joelgtsantos.controllers;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

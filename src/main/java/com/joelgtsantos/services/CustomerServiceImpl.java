@@ -4,6 +4,7 @@
 package com.joelgtsantos.services;
 
 import com.joelgtsantos.api.v1.model.CustomerDTO;
+import com.joelgtsantos.controllers.v1.CustomerController;
 import com.joelgtsantos.domain.Customer;
 
 import java.util.List;
@@ -13,7 +14,6 @@ import org.springframework.stereotype.Service;
 
 import com.joelgtsantos.api.v1.mapper.CustomerMapper;
 import com.joelgtsantos.repositories.CustomerRepository;
-import com.joelgtsantos.v1.controllers.CustomerController;
 
 /**
  * @author Joel Santos
