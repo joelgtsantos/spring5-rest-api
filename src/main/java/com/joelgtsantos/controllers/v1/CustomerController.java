@@ -19,6 +19,8 @@ import com.joelgtsantos.api.v1.model.CustomerDTO;
 import com.joelgtsantos.api.v1.model.CustomerListDTO;
 import com.joelgtsantos.services.CustomerService;
 
+import io.swagger.annotations.ApiOperation;
+
 /**
  * @author Joel Santos
  *
@@ -36,6 +38,7 @@ public class CustomerController {
         this.customerService = customerService;
     }
 
+    @ApiOperation(value = "This will get a list of customers.", notes = "These are some notes about the API.")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public CustomerListDTO getListofCustomers(){

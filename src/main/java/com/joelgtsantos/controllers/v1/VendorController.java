@@ -19,6 +19,8 @@ import com.joelgtsantos.api.v1.model.VendorDTO;
 import com.joelgtsantos.api.v1.model.VendorListDTO;
 import com.joelgtsantos.services.VendorService;
 
+import io.swagger.annotations.ApiOperation;
+
 /**
  * @author Joel Santos
  *
@@ -37,6 +39,7 @@ public class VendorController {
         this.vendorService = vendorService;
     }
 
+    @ApiOperation(value = "View List of Vendors", notes="These are some API Notes")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public VendorListDTO getVendorList(){
